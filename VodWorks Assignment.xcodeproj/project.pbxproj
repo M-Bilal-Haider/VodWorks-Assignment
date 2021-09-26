@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15CC0A1F2700CA1D005B9952 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC0A1E2700CA1D005B9952 /* AppDelegate.swift */; };
+		15CC0A212700CA1D005B9952 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC0A202700CA1D005B9952 /* SceneDelegate.swift */; };
+		15CC0A232700CA1D005B9952 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC0A222700CA1D005B9952 /* ViewController.swift */; };
+		15CC0A262700CA1D005B9952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CC0A242700CA1D005B9952 /* Main.storyboard */; };
+		15CC0A292700CA1D005B9952 /* VodWorks_Assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15CC0A272700CA1D005B9952 /* VodWorks_Assignment.xcdatamodeld */; };
+		15CC0A2B2700CA1E005B9952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15CC0A2A2700CA1E005B9952 /* Assets.xcassets */; };
+		15CC0A2E2700CA1E005B9952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CC0A2C2700CA1E005B9952 /* LaunchScreen.storyboard */; };
+		15CC0A392700CA1E005B9952 /* VodWorks_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC0A382700CA1E005B9952 /* VodWorks_AssignmentTests.swift */; };
+		15CC0A442700CA1E005B9952 /* VodWorks_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC0A432700CA1E005B9952 /* VodWorks_AssignmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15CC0A352700CA1E005B9952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15CC0A132700CA1D005B9952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15CC0A1A2700CA1D005B9952;
+			remoteInfo = "VodWorks Assignment";
+		};
+		15CC0A402700CA1E005B9952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15CC0A132700CA1D005B9952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15CC0A1A2700CA1D005B9952;
+			remoteInfo = "VodWorks Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15CC0A1B2700CA1D005B9952 /* VodWorks Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VodWorks Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CC0A1E2700CA1D005B9952 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15CC0A202700CA1D005B9952 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		15CC0A222700CA1D005B9952 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15CC0A252700CA1D005B9952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15CC0A282700CA1D005B9952 /* VodWorks_Assignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VodWorks_Assignment.xcdatamodel; sourceTree = "<group>"; };
+		15CC0A2A2700CA1E005B9952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15CC0A2D2700CA1E005B9952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15CC0A2F2700CA1E005B9952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15CC0A342700CA1E005B9952 /* VodWorks AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VodWorks AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CC0A382700CA1E005B9952 /* VodWorks_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodWorks_AssignmentTests.swift; sourceTree = "<group>"; };
+		15CC0A3A2700CA1E005B9952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15CC0A3F2700CA1E005B9952 /* VodWorks AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VodWorks AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CC0A432700CA1E005B9952 /* VodWorks_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodWorks_AssignmentUITests.swift; sourceTree = "<group>"; };
+		15CC0A452700CA1E005B9952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15CC0A182700CA1D005B9952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CC0A312700CA1E005B9952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CC0A3C2700CA1E005B9952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15CC0A122700CA1D005B9952 = {
+			isa = PBXGroup;
+			children = (
+				15CC0A1D2700CA1D005B9952 /* VodWorks Assignment */,
+				15CC0A372700CA1E005B9952 /* VodWorks AssignmentTests */,
+				15CC0A422700CA1E005B9952 /* VodWorks AssignmentUITests */,
+				15CC0A1C2700CA1D005B9952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15CC0A1C2700CA1D005B9952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15CC0A1B2700CA1D005B9952 /* VodWorks Assignment.app */,
+				15CC0A342700CA1E005B9952 /* VodWorks AssignmentTests.xctest */,
+				15CC0A3F2700CA1E005B9952 /* VodWorks AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15CC0A1D2700CA1D005B9952 /* VodWorks Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				15CC0A1E2700CA1D005B9952 /* AppDelegate.swift */,
+				15CC0A202700CA1D005B9952 /* SceneDelegate.swift */,
+				15CC0A222700CA1D005B9952 /* ViewController.swift */,
+				15CC0A242700CA1D005B9952 /* Main.storyboard */,
+				15CC0A2A2700CA1E005B9952 /* Assets.xcassets */,
+				15CC0A2C2700CA1E005B9952 /* LaunchScreen.storyboard */,
+				15CC0A2F2700CA1E005B9952 /* Info.plist */,
+				15CC0A272700CA1D005B9952 /* VodWorks_Assignment.xcdatamodeld */,
+			);
+			path = "VodWorks Assignment";
+			sourceTree = "<group>";
+		};
+		15CC0A372700CA1E005B9952 /* VodWorks AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				15CC0A382700CA1E005B9952 /* VodWorks_AssignmentTests.swift */,
+				15CC0A3A2700CA1E005B9952 /* Info.plist */,
+			);
+			path = "VodWorks AssignmentTests";
+			sourceTree = "<group>";
+		};
+		15CC0A422700CA1E005B9952 /* VodWorks AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15CC0A432700CA1E005B9952 /* VodWorks_AssignmentUITests.swift */,
+				15CC0A452700CA1E005B9952 /* Info.plist */,
+			);
+			path = "VodWorks AssignmentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15CC0A1A2700CA1D005B9952 /* VodWorks Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CC0A482700CA1E005B9952 /* Build configuration list for PBXNativeTarget "VodWorks Assignment" */;
+			buildPhases = (
+				15CC0A172700CA1D005B9952 /* Sources */,
+				15CC0A182700CA1D005B9952 /* Frameworks */,
+				15CC0A192700CA1D005B9952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VodWorks Assignment";
+			productName = "VodWorks Assignment";
+			productReference = 15CC0A1B2700CA1D005B9952 /* VodWorks Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15CC0A332700CA1E005B9952 /* VodWorks AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CC0A4B2700CA1E005B9952 /* Build configuration list for PBXNativeTarget "VodWorks AssignmentTests" */;
+			buildPhases = (
+				15CC0A302700CA1E005B9952 /* Sources */,
+				15CC0A312700CA1E005B9952 /* Frameworks */,
+				15CC0A322700CA1E005B9952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15CC0A362700CA1E005B9952 /* PBXTargetDependency */,
+			);
+			name = "VodWorks AssignmentTests";
+			productName = "VodWorks AssignmentTests";
+			productReference = 15CC0A342700CA1E005B9952 /* VodWorks AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15CC0A3E2700CA1E005B9952 /* VodWorks AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CC0A4E2700CA1E005B9952 /* Build configuration list for PBXNativeTarget "VodWorks AssignmentUITests" */;
+			buildPhases = (
+				15CC0A3B2700CA1E005B9952 /* Sources */,
+				15CC0A3C2700CA1E005B9952 /* Frameworks */,
+				15CC0A3D2700CA1E005B9952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15CC0A412700CA1E005B9952 /* PBXTargetDependency */,
+			);
+			name = "VodWorks AssignmentUITests";
+			productName = "VodWorks AssignmentUITests";
+			productReference = 15CC0A3F2700CA1E005B9952 /* VodWorks AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15CC0A132700CA1D005B9952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					15CC0A1A2700CA1D005B9952 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					15CC0A332700CA1E005B9952 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 15CC0A1A2700CA1D005B9952;
+					};
+					15CC0A3E2700CA1E005B9952 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 15CC0A1A2700CA1D005B9952;
+					};
+				};
+			};
+			buildConfigurationList = 15CC0A162700CA1D005B9952 /* Build configuration list for PBXProject "VodWorks Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15CC0A122700CA1D005B9952;
+			productRefGroup = 15CC0A1C2700CA1D005B9952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15CC0A1A2700CA1D005B9952 /* VodWorks Assignment */,
+				15CC0A332700CA1E005B9952 /* VodWorks AssignmentTests */,
+				15CC0A3E2700CA1E005B9952 /* VodWorks AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15CC0A192700CA1D005B9952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CC0A2E2700CA1E005B9952 /* LaunchScreen.storyboard in Resources */,
+				15CC0A2B2700CA1E005B9952 /* Assets.xcassets in Resources */,
+				15CC0A262700CA1D005B9952 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CC0A322700CA1E005B9952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CC0A3D2700CA1E005B9952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15CC0A172700CA1D005B9952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CC0A232700CA1D005B9952 /* ViewController.swift in Sources */,
+				15CC0A1F2700CA1D005B9952 /* AppDelegate.swift in Sources */,
+				15CC0A292700CA1D005B9952 /* VodWorks_Assignment.xcdatamodeld in Sources */,
+				15CC0A212700CA1D005B9952 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CC0A302700CA1E005B9952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CC0A392700CA1E005B9952 /* VodWorks_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CC0A3B2700CA1E005B9952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CC0A442700CA1E005B9952 /* VodWorks_AssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15CC0A362700CA1E005B9952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15CC0A1A2700CA1D005B9952 /* VodWorks Assignment */;
+			targetProxy = 15CC0A352700CA1E005B9952 /* PBXContainerItemProxy */;
+		};
+		15CC0A412700CA1E005B9952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15CC0A1A2700CA1D005B9952 /* VodWorks Assignment */;
+			targetProxy = 15CC0A402700CA1E005B9952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15CC0A242700CA1D005B9952 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15CC0A252700CA1D005B9952 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15CC0A2C2700CA1E005B9952 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15CC0A2D2700CA1E005B9952 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15CC0A462700CA1E005B9952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15CC0A472700CA1E005B9952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15CC0A492700CA1E005B9952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3X7ZJ83L4;
+				INFOPLIST_FILE = "VodWorks Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bilal.VodWorks-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15CC0A4A2700CA1E005B9952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3X7ZJ83L4;
+				INFOPLIST_FILE = "VodWorks Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bilal.VodWorks-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15CC0A4C2700CA1E005B9952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3X7ZJ83L4;
+				INFOPLIST_FILE = "VodWorks AssignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bilal.VodWorks-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VodWorks Assignment.app/VodWorks Assignment";
+			};
+			name = Debug;
+		};
+		15CC0A4D2700CA1E005B9952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3X7ZJ83L4;
+				INFOPLIST_FILE = "VodWorks AssignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bilal.VodWorks-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VodWorks Assignment.app/VodWorks Assignment";
+			};
+			name = Release;
+		};
+		15CC0A4F2700CA1E005B9952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3X7ZJ83L4;
+				INFOPLIST_FILE = "VodWorks AssignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bilal.VodWorks-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VodWorks Assignment";
+			};
+			name = Debug;
+		};
+		15CC0A502700CA1E005B9952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3X7ZJ83L4;
+				INFOPLIST_FILE = "VodWorks AssignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bilal.VodWorks-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VodWorks Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15CC0A162700CA1D005B9952 /* Build configuration list for PBXProject "VodWorks Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CC0A462700CA1E005B9952 /* Debug */,
+				15CC0A472700CA1E005B9952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15CC0A482700CA1E005B9952 /* Build configuration list for PBXNativeTarget "VodWorks Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CC0A492700CA1E005B9952 /* Debug */,
+				15CC0A4A2700CA1E005B9952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15CC0A4B2700CA1E005B9952 /* Build configuration list for PBXNativeTarget "VodWorks AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CC0A4C2700CA1E005B9952 /* Debug */,
+				15CC0A4D2700CA1E005B9952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15CC0A4E2700CA1E005B9952 /* Build configuration list for PBXNativeTarget "VodWorks AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CC0A4F2700CA1E005B9952 /* Debug */,
+				15CC0A502700CA1E005B9952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		15CC0A272700CA1D005B9952 /* VodWorks_Assignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				15CC0A282700CA1D005B9952 /* VodWorks_Assignment.xcdatamodel */,
+			);
+			currentVersion = 15CC0A282700CA1D005B9952 /* VodWorks_Assignment.xcdatamodel */;
+			path = VodWorks_Assignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 15CC0A132700CA1D005B9952 /* Project object */;
+}
