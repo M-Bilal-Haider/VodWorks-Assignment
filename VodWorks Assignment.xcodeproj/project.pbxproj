@@ -16,6 +16,8 @@
 		15CC0A2E2700CA1E005B9952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CC0A2C2700CA1E005B9952 /* LaunchScreen.storyboard */; };
 		15CC0A392700CA1E005B9952 /* VodWorks_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC0A382700CA1E005B9952 /* VodWorks_AssignmentTests.swift */; };
 		15CC0A442700CA1E005B9952 /* VodWorks_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC0A432700CA1E005B9952 /* VodWorks_AssignmentUITests.swift */; };
+		15CC0A522700CAEC005B9952 /* GameTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC0A512700CAEC005B9952 /* GameTable.swift */; };
+		15CC0A542700D4EA005B9952 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC0A532700D4EA005B9952 /* Robot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		15CC0A3F2700CA1E005B9952 /* VodWorks AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VodWorks AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15CC0A432700CA1E005B9952 /* VodWorks_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodWorks_AssignmentUITests.swift; sourceTree = "<group>"; };
 		15CC0A452700CA1E005B9952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15CC0A512700CAEC005B9952 /* GameTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTable.swift; sourceTree = "<group>"; };
+		15CC0A532700D4EA005B9952 /* Robot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		151C906727022BFB0084257B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		151C906827022C040084257B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15CC0A512700CAEC005B9952 /* GameTable.swift */,
+				15CC0A532700D4EA005B9952 /* Robot.swift */,
+				15CC0A242700CA1D005B9952 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		151C906927022C0A0084257B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15CC0A222700CA1D005B9952 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		151C906A27022C2E0084257B /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				15CC0A1E2700CA1D005B9952 /* AppDelegate.swift */,
+				15CC0A202700CA1D005B9952 /* SceneDelegate.swift */,
+				15CC0A2A2700CA1E005B9952 /* Assets.xcassets */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
 		15CC0A122700CA1D005B9952 = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +140,10 @@
 		15CC0A1D2700CA1D005B9952 /* VodWorks Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				15CC0A1E2700CA1D005B9952 /* AppDelegate.swift */,
-				15CC0A202700CA1D005B9952 /* SceneDelegate.swift */,
-				15CC0A222700CA1D005B9952 /* ViewController.swift */,
-				15CC0A242700CA1D005B9952 /* Main.storyboard */,
-				15CC0A2A2700CA1E005B9952 /* Assets.xcassets */,
+				151C906A27022C2E0084257B /* Misc */,
+				151C906927022C0A0084257B /* Controller */,
+				151C906827022C040084257B /* View */,
+				151C906727022BFB0084257B /* Model */,
 				15CC0A2C2700CA1E005B9952 /* LaunchScreen.storyboard */,
 				15CC0A2F2700CA1E005B9952 /* Info.plist */,
 				15CC0A272700CA1D005B9952 /* VodWorks_Assignment.xcdatamodeld */,
@@ -263,7 +301,9 @@
 			files = (
 				15CC0A232700CA1D005B9952 /* ViewController.swift in Sources */,
 				15CC0A1F2700CA1D005B9952 /* AppDelegate.swift in Sources */,
+				15CC0A522700CAEC005B9952 /* GameTable.swift in Sources */,
 				15CC0A292700CA1D005B9952 /* VodWorks_Assignment.xcdatamodeld in Sources */,
+				15CC0A542700D4EA005B9952 /* Robot.swift in Sources */,
 				15CC0A212700CA1D005B9952 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
